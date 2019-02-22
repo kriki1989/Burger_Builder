@@ -25,10 +25,9 @@ const order = ( props ) => {
     return (
     <div className={classes.Order}>
         <p>Ingredients: {ingredientOutput}</p>
-        <p>Price: <strong>EUR {props.price}</strong></p>
 
-        {/* String float number to decimal number
-        <p>Price: <strong>EUR {Number.parseFloat(props.price).toFixed(2)}</strong></p> */}
+        {/* String float number to decimal number */}
+        <p>Price: <strong>EUR {Number.parseFloat(props.price).toFixed(2)}</strong></p>
     </div>
     );
 };
